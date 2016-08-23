@@ -1,27 +1,17 @@
-// This is your first fully working Tabris.js app. Feel free to alter as you please.
-// Changes are saved automatically and are immediately available on your device.
-
-// Create a top-level page that contains our UI
 var page = new tabris.Page({
-  title: "Hello, World!",
+  title: "Appsheet",
   topLevel: true
 });
 
-// Create a push button and add it to the page
-var button = new tabris.Button({
-  centerX: 0, top: 100,
-  text: "Native Widgets"
+
+
+var webview = new tabris.WebView({
+  layoutData: {left: 0, top: 0, right: 0, bottom: 0}
 }).appendTo(page);
 
-// Create a text view and add it too
-var textView = new tabris.TextView({
-  centerX: 0, top: [button, 50],
-  font: "24px"
-}).appendTo(page);
+function loadUrl() {
+  webview.set("url", "http://pacificict.net/googleapp");
+}
 
-// Change the text view's text when the button is pressed
-button.on("select", function() {
-  textView.set("text", "Totally Rock!");
-});
-
+loadUrl();
 page.open();
