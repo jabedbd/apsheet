@@ -1,6 +1,10 @@
 {
+  "title": "Apsheet",
+  "category": "Tets",
+  "description": "An example of a app",
   "main": "myapp.js",
   "dependencies": {
     "tabris": "^1.9.0"
   }
+
 }
