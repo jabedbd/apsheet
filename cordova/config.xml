@@ -1,1 +1,10 @@
-
+<?xml version='1.0' encoding='utf-8'?>
+<widget id="my.appsheet.app" version="1.0.0">
+  <name>Apsheet</name>
+  <description>
+  A Test Version
+  </description>
+  <author email="ict@pgbd.org" href="http://pacificict.net">
+    Pacific ICT Team
+  </author>
+</widget>
