@@ -1,6 +1,6 @@
 {
   "title": "Apsheet",
-  "category": "Tets",
+  "category": "Test",
   "description": "An example of a app",
   "main": "myapp.js",
   "dependencies": {
